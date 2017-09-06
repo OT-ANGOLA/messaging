@@ -352,6 +352,10 @@ public class ServiceMessage {
     public static final String OT_WS_CLAIM_MERGE_WRONG_COUNT = OT_WS + "077";
     /** ser_ot078 - For claims split, there must be 1 claim to split and at least 2 new claims as a result of split. */
     public static final String OT_WS_CLAIM_SPLIT_WRONG_COUNT = OT_WS + "078";
+    /** ser_ot079 - Provided identificator number already exists. */
+    public static final String OT_WS_CLAIM_NUMBER_EXISTS = OT_WS + "079";
+    /** ser_ot080 - Manual identificator number must be less than 400. */
+    public static final String OT_WS_MANULA_CLAIM_NUMBER_LESS_400 = OT_WS + "080";
     
     /** serredact001 - Restricted. */
     public static final String REDACT_RESTRICTED = REDACT + "001";
