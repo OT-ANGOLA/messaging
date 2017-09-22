@@ -356,7 +356,15 @@ public class ServiceMessage {
     public static final String OT_WS_CLAIM_NUMBER_EXISTS = OT_WS + "079";
     /** ser_ot080 - Manual identificator number must be less than 400. */
     public static final String OT_WS_MANULA_CLAIM_NUMBER_LESS_400 = OT_WS + "080";
-    
+    /** ser_ot81 - North adjacency and its type are required */
+    public static final String OT_WS_CLAIM_NORTH_ADJ_REQUIRED = OT_WS + "081";
+    /** ser_ot82 - South adjacency and its type are required */
+    public static final String OT_WS_CLAIM_SOUTH_ADJ_REQUIRED = OT_WS + "082";
+    /** ser_ot83 - East adjacency and its type are required */
+    public static final String OT_WS_CLAIM_EAST_ADJ_REQUIRED = OT_WS + "083";
+    /** ser_ot84 - West adjacency and its type are required */
+    public static final String OT_WS_CLAIM_WEST_ADJ_REQUIRED = OT_WS + "084";
+        
     /** serredact001 - Restricted. */
     public static final String REDACT_RESTRICTED = REDACT + "001";
     /** serredact002 - Not Applicable. */
